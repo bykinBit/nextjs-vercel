@@ -39,7 +39,7 @@ export default async function Home() {
     return (
         <div>
             <section className="mb-12 text-center">
-                <h1 className="text-4xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent mb-4">
+                <h1 className="text-4xl font-bold bg-linear-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent mb-4">
                     Welcome to Blogr
                 </h1>
                 <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -76,7 +76,7 @@ export default async function Home() {
                         <p className="text-gray-500 mb-4">No posts yet. Be the first to publish!</p>
                         <Link
                             href="/create"
-                            className="inline-block px-6 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 text-white rounded-lg font-medium hover:from-violet-700 hover:to-indigo-700 transition-all shadow-md hover:shadow-lg"
+                            className="inline-block px-6 py-3 bg-linear-to-r from-violet-600 to-indigo-600 text-white rounded-lg font-medium hover:from-violet-700 hover:to-indigo-700 transition-all shadow-md hover:shadow-lg"
                         >
                             Create Your First Post
                         </Link>
